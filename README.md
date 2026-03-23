@@ -67,4 +67,6 @@ source venv/bin/activate
 7. Discuss why the pipeline is failing
 8. Fix the pipeline
 
+This is a small change to trigger the pipeline
+
 
