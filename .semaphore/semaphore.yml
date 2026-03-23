@@ -23,6 +23,7 @@ blocks:
   - name: "\U0001F50D Code Quality"
     dependencies:
       - "\U0001F6E0️ Setup and Cache"
+      - "\U0001F9EA Test Suite"
     task:
       jobs:
         - name: ✨ Lint and Format
