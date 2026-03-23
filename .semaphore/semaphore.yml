@@ -62,4 +62,5 @@ blocks:
       jobs:
         - name: Bild
           commands:
+            - pip install --cache-dir .pip_cache -r requirements.txt
             - make build
