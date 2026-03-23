@@ -51,3 +51,15 @@ blocks:
         machine:
           type: e1-standard-2
           os_image: ubuntu2204
+  - name: 'Block #4'
+    dependencies:
+      - "\U0001F9EA Test Suite"
+    task:
+      agent:
+        machine:
+          type: e1-standard-2
+          os_image: ubuntu2404
+      jobs:
+        - name: Bild
+          commands:
+            - make build
